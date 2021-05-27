@@ -7,6 +7,11 @@ html,
 body {
   padding: 0;
   margin: 0;
+  background-image: url(8bit_retro.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  min-height: 100%;
 }
 
 #game {
@@ -17,13 +22,13 @@ body {
 }
 
 #left-paddle {
-  background-color: green;
+  background-color: purple;
   left: 10px;
   height: 25px;
 }
 
 #right-paddle {
-  background-color: blue;
+  background-color: greenyellow;
   right: 10px;
 }
 
@@ -33,6 +38,7 @@ body {
   position: absolute;
   margin: 10px;
   font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 #errors-debug {
@@ -42,6 +48,7 @@ body {
   margin: 10px;
   padding-left: 400px;
   font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 #errors {
@@ -89,8 +96,10 @@ body {
 
 #left-score {
   left: 10%;
+  color: white;
 }
 
 #right-score {
   right: 10%;
+  color: white;
 }
